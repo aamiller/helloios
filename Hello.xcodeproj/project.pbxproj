@@ -10,7 +10,7 @@
 		B54DC6CA21E5A61700F914B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54DC6C921E5A61700F914B5 /* AppDelegate.swift */; };
 		B54DC6CC21E5A61700F914B5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54DC6CB21E5A61700F914B5 /* ViewController.swift */; };
 		B54DC6CF21E5A61700F914B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B54DC6CD21E5A61700F914B5 /* Main.storyboard */; };
-		B54DC6D121E5A61900F914B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B54DC6D021E5A61900F914B5 /* Assets.xcassets */; };
+		B54DC6D121E5A61900F914B5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B54DC6D021E5A61900F914B5 /* Images.xcassets */; };
 		B54DC6D421E5A61900F914B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B54DC6D221E5A61900F914B5 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -19,7 +19,7 @@
 		B54DC6C921E5A61700F914B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B54DC6CB21E5A61700F914B5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B54DC6CE21E5A61700F914B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B54DC6D021E5A61900F914B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B54DC6D021E5A61900F914B5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B54DC6D321E5A61900F914B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B54DC6D521E5A61900F914B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -57,7 +57,7 @@
 				B54DC6C921E5A61700F914B5 /* AppDelegate.swift */,
 				B54DC6CB21E5A61700F914B5 /* ViewController.swift */,
 				B54DC6CD21E5A61700F914B5 /* Main.storyboard */,
-				B54DC6D021E5A61900F914B5 /* Assets.xcassets */,
+				B54DC6D021E5A61900F914B5 /* Images.xcassets */,
 				B54DC6D221E5A61900F914B5 /* LaunchScreen.storyboard */,
 				B54DC6D521E5A61900F914B5 /* Info.plist */,
 			);
@@ -123,7 +123,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B54DC6D421E5A61900F914B5 /* LaunchScreen.storyboard in Resources */,
-				B54DC6D121E5A61900F914B5 /* Assets.xcassets in Resources */,
+				B54DC6D121E5A61900F914B5 /* Images.xcassets in Resources */,
 				B54DC6CF21E5A61700F914B5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,6 +281,7 @@
 		B54DC6D921E5A61900F914B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Hello/Info.plist;
@@ -299,6 +300,7 @@
 		B54DC6DA21E5A61900F914B5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Hello/Info.plist;
